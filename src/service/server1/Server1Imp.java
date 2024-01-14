@@ -2,6 +2,8 @@ package service.server1;
 
 import service.IServerSync;
 
+import service.IServerSync;
+
 import java.io.*;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
@@ -11,7 +13,7 @@ import java.rmi.server.RMIClientSocketFactory;
 import java.rmi.server.RMIServerSocketFactory;
 import java.rmi.server.UnicastRemoteObject;
 
-public class Server1Imp extends UnicastRemoteObject implements IServerSync{
+public class Server1Imp extends UnicastRemoteObject implements IServerSync {
     protected Server1Imp() throws RemoteException {
     }
 
